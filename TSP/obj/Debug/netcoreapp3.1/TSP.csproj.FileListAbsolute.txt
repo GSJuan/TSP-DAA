@@ -1,0 +1,14 @@
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.csproj.AssemblyReference.cache
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.AssemblyInfoInputs.cache
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.AssemblyInfo.cs
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.exe
+C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.deps.json
+C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.runtimeconfig.json
+C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.runtimeconfig.dev.json
+C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.dll
+C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.pdb
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.dll
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.pdb
+C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.genruntimeconfig.cache

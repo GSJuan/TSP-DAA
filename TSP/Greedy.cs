@@ -7,20 +7,20 @@ namespace TSP
     internal class Greedy : IAlgorithm
     {
         
-        public List<char> Solve(Graph problem, char origin)
+        public List<string> Solve(Graph problem, string origin)
         {
-            char startingNode = origin;
-            List<char> visited = new List<char>();
+            string startingNode = origin;
+            List<string> visited = new List<string>();
             visited.Add(startingNode);
             
             while (visited.Count < problem.nodeQuantity)
             {
                 int min = int.MaxValue;
-                char minNode = ' ';
+                string minNode = " ";
                 List<Transition> possibleWays = problem.GetTransitions(startingNode);
                 foreach (Transition path in possibleWays)
                 {
-                    char destination = path.Node2;
+                    string destination = path.Node2;
                     
                     if (path.Node1 != startingNode)
                     {

@@ -6,10 +6,10 @@ namespace TSP
 {
     public class Transition
     {
-        public char Node1 { get; set; }
+        public string Node1 { get; set; }
         public int Cost { get; set; }
-        public char Node2 { get; set; }
-        public Transition(char nodeA, char nodeB, int cost)
+        public string Node2 { get; set; }
+        public Transition(string nodeA, string nodeB, int cost)
         {
             Node1 = nodeA;
             Cost = cost;

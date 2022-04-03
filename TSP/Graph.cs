@@ -9,22 +9,21 @@ namespace TSP
     {
 
         public List<Transition> transitions = new List<Transition>();
-        public List<char> nodes = new List<char>();
+        public List<string> nodes = new List<string>();
         public int nodeQuantity = 0;
 
         public Graph(string filePath)
         {
 
             string[] lines = File.ReadAllLines(filePath);
-            Console.WriteLine("Reading file...");
             
             nodeQuantity = int.Parse(lines[0]);
-            Console.Write(nodeQuantity);
+            //Console.Write(nodeQuantity);
             for (int i = 1; i < lines.Length; i++)
             {
                 string[] line = lines[i].Split(' ');
-                char nodeA = char.Parse(line[0]);
-                char nodeB = char.Parse(line[1]);
+                string nodeA = line[0];
+                string nodeB = line[1];
                 int cost = int.Parse(line[2]);
 
                 if (!nodes.Contains(nodeA))
@@ -37,13 +36,13 @@ namespace TSP
                     nodes.Add(nodeB);
                 }
                 
-                Console.Write(nodeA + " " + nodeB + " " + cost + "\n");
+                //Console.Write(nodeA + " " + nodeB + " " + cost + "\n");
                 transitions.Add(new Transition(nodeA, nodeB, cost));
             }
 
         }
 
-        public int GetCost(char nodeA, char nodeB)
+        public int GetCost(string nodeA, string nodeB)
         {
             foreach (Transition transition in transitions)
             {
@@ -55,7 +54,7 @@ namespace TSP
             return -1;
         }
 
-        public int GetPathCost(List<char> path)
+        public int GetPathCost(List<string> path)
         {
             int cost = 0;
             for (int i = 0; i < path.Count - 1; i++)
@@ -65,7 +64,7 @@ namespace TSP
             return cost;
         }
 
-        public List<Transition> GetTransitions(char node)
+        public List<Transition> GetTransitions(string node)
         {
             List<Transition> transitions = new List<Transition>();
             foreach (Transition transition in this.transitions)
@@ -78,7 +77,7 @@ namespace TSP
             return transitions;
         }
 
-        public int GetDistance(char nodeA, char nodeB)
+        public int GetDistance(string nodeA, string nodeB)
         {
             foreach (Transition transition in transitions)
             {

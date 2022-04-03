@@ -6,15 +6,15 @@ namespace TSP
 {
     internal class BruteForce : IAlgorithm
     {
-        private List<char> minPath = new List<char>();
-        private char startingNode;
+        private List<string> minPath = new List<string>();
+        private string startingNode;
         private Graph graph;
         private int minCost = int.MaxValue;
-        public List<char> Solve(Graph problem, char startingNode)
+        public List<string> Solve(Graph problem, string startingNode)
         {
             this.graph = problem;
             this.startingNode = startingNode;
-            List<char> nodes = new List<char>(graph.nodes);
+            List<string> nodes = new List<string>(graph.nodes);
             nodes.Remove(startingNode);
             
             permute(nodes, 0, nodes.Count - 1);
@@ -22,7 +22,7 @@ namespace TSP
             return minPath;
         }
 
-        private void permute(List<char> nodes, int left, int right)
+        private void permute(List<string> nodes, int left, int right)
         {
             if (left == right)
             {
@@ -33,7 +33,7 @@ namespace TSP
                 if (cost < this.minCost)
                 {
                     this.minCost = this.graph.GetPathCost(nodes);
-                    this.minPath = new List<char>(nodes);
+                    this.minPath = new List<string>(nodes);
                 }
 
                 nodes.RemoveAt(0);
@@ -50,7 +50,7 @@ namespace TSP
             }
         }
 
-        private void swap(ref List<char> nodes, int i, int j)
+        private void swap(ref List<string> nodes, int i, int j)
         {
             (nodes[j], nodes[i]) = (nodes[i], nodes[j]);
         }

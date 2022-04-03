@@ -6,6 +6,6 @@ namespace TSP
 {
     public interface IAlgorithm
     {
-        List<int> Solve(Graph problem);
+        List<char> Solve(Graph problem, char startingNode);
     }
 }

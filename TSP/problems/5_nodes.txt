@@ -1,0 +1,11 @@
+5
+A B 88
+A C 84
+A D 47
+A E 26
+B C 36
+B D 78
+B E 63
+C D 5
+C E 45
+D E 16

@@ -1,12 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace TSP
 {
     internal class Greedy : IAlgorithm
     {
-        
+        private int limitTime = 0;
+        public Stopwatch limit = new Stopwatch();
+        public Greedy(int limitTime)
+        {
+            this.limitTime = limitTime;
+        }
         public List<string> Solve(Graph problem, string origin)
         {
             string startingNode = origin;

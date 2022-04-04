@@ -10,6 +10,7 @@ namespace TSP
 
         public List<Transition> transitions = new List<Transition>();
         public List<string> nodes = new List<string>();
+        public float[,] adjacencyMatrix;
         public int nodeQuantity = 0;
 
         public Graph(string filePath)
@@ -18,7 +19,9 @@ namespace TSP
             string[] lines = File.ReadAllLines(filePath);
             
             nodeQuantity = int.Parse(lines[0]);
-            //Console.Write(nodeQuantity);
+
+            adjacencyMatrix = new float[nodeQuantity, nodeQuantity];
+
             for (int i = 1; i < lines.Length; i++)
             {
                 string[] line = lines[i].Split(' ');
@@ -40,6 +43,16 @@ namespace TSP
                 transitions.Add(new Transition(nodeA, nodeB, cost));
             }
 
+            for (int i = 0; i < nodeQuantity; i++)
+            {
+                for (int j = 0; j < nodeQuantity; j++)
+                {
+                    string nodeA = nodes[i];
+                    string nodeB = nodes[j];
+                    int cost = GetCost(nodeA, nodeB);
+                    adjacencyMatrix[i, j] = cost;
+                }
+            }
         }
 
         public int GetCost(string nodeA, string nodeB)

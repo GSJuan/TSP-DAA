@@ -44,6 +44,11 @@ namespace TSP
 
         public int GetCost(string nodeA, string nodeB)
         {
+            if (nodeA == nodeB)
+            {
+                return 0;
+            }
+            
             foreach (Transition transition in transitions)
             {
                 if ((transition.Node1 == nodeA && transition.Node2 == nodeB) || (transition.Node2 == nodeA && transition.Node1 == nodeB))

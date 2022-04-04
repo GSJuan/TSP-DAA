@@ -51,7 +51,14 @@ namespace TSP
                     var elapsedMsBrute = chrono.Elapsed;
                     int bruteCost = problem.GetPathCost(bruteMinPath);
 
-                    table.PrintRow(filename, bruteCost.ToString(), elapsedMsBrute.ToString(), greedCost.ToString(), elapsedMsGreedy.ToString(), "0", "0");
+                    DynamicProgramming dynamic = new DynamicProgramming();
+                    chrono.Restart();
+                    List<string> dynamicMinPath = dynamic.Solve(problem, "A");
+                    chrono.Stop();
+                    var elapsedMsDynamic = chrono.Elapsed;
+                    int dynamicCost = problem.GetPathCost(bruteMinPath);
+
+                    table.PrintRow(filename, bruteCost.ToString(), elapsedMsBrute.ToString(), greedCost.ToString(), elapsedMsGreedy.ToString(), dynamicCost.ToString(), elapsedMsDynamic.ToString());
                     table.PrintLine();
                 }
             }

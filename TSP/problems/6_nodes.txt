@@ -1,0 +1,16 @@
+6
+A B 56
+A C 89
+A D 26
+A E 32
+A F 19
+B C 7
+B D 52
+B E 44
+B F 94
+C D 5
+C E 97
+C F 22
+D E 91
+D F 70
+E F 33

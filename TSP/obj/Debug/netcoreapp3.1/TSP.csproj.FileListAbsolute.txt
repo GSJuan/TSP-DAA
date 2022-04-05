@@ -12,3 +12,17 @@ C:\Users\Juan\source\repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.pdb
 C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.dll
 C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.pdb
 C:\Users\Juan\source\repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.genruntimeconfig.cache
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.exe
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.deps.json
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.runtimeconfig.json
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.runtimeconfig.dev.json
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.dll
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\bin\Debug\netcoreapp3.1\TSP.pdb
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.csproj.AssemblyReference.cache
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.AssemblyInfoInputs.cache
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.AssemblyInfo.cs
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.csproj.CoreCompileInputs.cache
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.dll
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.pdb
+C:\Users\skate\Source\Repos\TSP-DAA\TSP\obj\Debug\netcoreapp3.1\TSP.genruntimeconfig.cache

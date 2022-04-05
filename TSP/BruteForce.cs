@@ -15,6 +15,8 @@ namespace TSP
         private Graph graph;
         private int minCost = int.MaxValue;
 
+
+
         public bool excesive = false;
 
         public BruteForce(int msLimit)

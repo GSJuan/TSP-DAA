@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj": {}
+    "C:\\Users\\skate\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj": {
+    "C:\\Users\\skate\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj",
+        "projectUniqueName": "C:\\Users\\skate\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj",
         "projectName": "TSP",
-        "projectPath": "C:\\Users\\Juan\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj",
-        "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\source\\repos\\TSP-DAA\\TSP\\obj\\",
+        "projectPath": "C:\\Users\\skate\\source\\repos\\TSP-DAA\\TSP\\TSP.csproj",
+        "packagesPath": "C:\\Users\\skate\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skate\\source\\repos\\TSP-DAA\\TSP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\skate\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
